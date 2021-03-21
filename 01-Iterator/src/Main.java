@@ -5,6 +5,7 @@ public class Main {
         bookShelf.appendBook(new Book("Bible"));
         bookShelf.appendBook(new Book("Cinderella"));
         bookShelf.appendBook(new Book("Daddy-Long-Legs"));
+        bookShelf.appendBook(new Book("Java Gengo de Manabu Design Pattern Nyumon"));
 
         Iterator it = bookShelf.iterator();
         while (it.hasNext()) {
