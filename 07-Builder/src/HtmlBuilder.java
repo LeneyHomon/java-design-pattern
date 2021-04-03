@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class HtmlBuilder extends Builder {
+public class HtmlBuilder implements Builder {
     private String filename;
     private PrintWriter writer;
 

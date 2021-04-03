@@ -1,4 +1,4 @@
-public class TextBuilder extends Builder {
+public class TextBuilder implements Builder {
     private StringBuilder buffer = new StringBuilder();
 
     @Override
